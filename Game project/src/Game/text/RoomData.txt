@@ -1,0 +1,55 @@
+Room, Start, ../../lib/BG/startingroom.png
+Room, Second, ../../lib/BG/secondroom.png
+Room, Third, ../../lib/BG/thirdroom.png
+Room, Fourth, ../../lib/BG/fourthroom.png
+Room, Empty, ../../lib/BG/emptyroom.png
+Room, Boss, ../../lib/BG/Boss.png
+Trap, Second, trap1, 6, 6
+Trap, Second, trap2, 5, 5
+Trap, Second, trap3, 7, 7
+Trap, Second, trap4, 5, 7
+Trap, Second, trap5, 7, 5
+Trap, Fourth, trap6, 1, 1
+Trap, Fourth, trap7, 11, 11
+Trap, Fourth, trap8, 1, 11
+Trap, Fourth, trap9, 11, 1
+Trap, Boss, trap10, 1, 1
+Trap, Boss, trap11, 2, 1
+Trap, Boss, trap12, 3, 1
+Trap, Boss, trap13, 4, 1
+Trap, Boss, trap14, 5, 1
+Trap, Boss, trap15, 6, 1
+Trap, Boss, trap16, 7, 1
+Trap, Boss, trap17, 8, 1
+Trap, Boss, trap18, 9, 1
+Trap, Boss, trap19, 10, 1
+Trap, Boss, trap20, 11, 1
+Trap, Boss, trap21, 1, 11
+Trap, Boss, trap22, 2, 11
+Trap, Boss, trap23, 3, 11
+Trap, Boss, trap24, 4, 11
+Trap, Boss, trap25, 5, 11
+Trap, Boss, trap26, 6, 11
+Trap, Boss, trap27, 7, 11
+Trap, Boss, trap28, 8, 11
+Trap, Boss, trap29, 9, 11
+Trap, Boss, trap30, 10, 11
+Trap, Boss, trap31, 11, 11
+Obstacle, Second, obstacle1, 6, 5
+Obstacle, Second, obstacle2, 5, 6
+Obstacle, Second, obstacle3, 7, 6
+Obstacle, Second, obstacle4, 6, 7
+Obstacle, Third, obstacle5, 1, 1
+Obstacle, Third, obstacle6, 11, 11
+Obstacle, Third, obstacle7, 1, 11
+Obstacle, Third, obstacle8, 11, 1
+Enemy, Second, enemy1, 8, 8, 1
+Enemy, Third, enemy2, 11, 11, 1
+Enemy, Third, enemy3, 2, 2, 1
+Enemy, Fourth, enemy4, 2, 5, 1
+Exit, Start, South, Second
+Exit, Second, North, Start
+Exit, Second, East, Empty
+Exit, Empty, West, Second
+Exit, Third, East, Second
+Exit, Fourth, North, Third
