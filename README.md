@@ -1,7 +1,7 @@
 ## Projects
 Lucas Kerslow
 
-Some of the code lacks comments. This is not how I would do in a professional project.
+Some of the code lacks comments. I would be commenting the code a lot more in a professional project.
 
 
 ### Factorial experiment
