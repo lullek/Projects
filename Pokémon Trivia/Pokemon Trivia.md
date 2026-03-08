@@ -16,7 +16,7 @@ Almost everything in PokemonModel.js (generateRandomId, updatePokemonId, getPoke
 
 Everything in pokemonSource.js, where the API calls can be found, to fetch the Pokémon names and images (getPokeACB, nameACB, imageACB, getPokemon, getPokemonName and getPokemonImage).
 
-resolvePromise.js (although just copied from the TW).
+resolvePromise.js (although mostly copied from the code skeleton of an earlier assignment).
 
 The whole quizPresenter.jsx, for the logic passed to the quizView, and to conditionally render the quiz, result and suspense views.
 
