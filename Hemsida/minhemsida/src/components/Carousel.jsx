@@ -1,5 +1,8 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import adungeonadventure from "../assets/adungeonadventure.png";
+import otherworldguardian from "../assets/otherworldguardian.png";
+import webbsidor from "../assets/webbsidor.png";
 import "../styles/Carousel.css";
 
 const items = [
@@ -9,7 +12,7 @@ const items = [
       swe: "A Dungeon Adventure",
       eng: "A Dungeon Adventure",
     },
-    image: "/src/assets/adungeonadventure.png", 
+    image: adungeonadventure, 
     text: {
       swe: "Det här är ett spel som jag har skapat, där du utforskar en dungeon och löser pussel. Jag har utvecklat spelet från grunden i Unity och använt assets från Unity Asset Store. Jag kan visa kodexempel om så önskas. Spelet kan laddas ner här:",
       eng: "This is a game I made, where you explore a dungeon and solve puzzles. I have built the game in Unity from scratch using assets from the Unity Asset Store for graphics. I can show code samples if desired. The game can be downloaded here:",
@@ -28,7 +31,7 @@ const items = [
       swe: "Otherworld Guardian",
       eng: "Otherworld Guardian",
     }, 
-    image: "/src/assets/otherworldguardian.png",
+    image: otherworldguardian,
     text: {
       swe: "Det här är ett spel som jag utvecklade tillsammans med en grupp som projekt i kursen DH2650 på KTH. Arbetet delades upp mellan gruppmedlemmarna, och jag och en annan person ansvarade för spelprogrammeringen. Jag stod för all programmering av utforskningsdelen av spelet, men inte för pusseldelen inuti portalen. Spelet kan laddas ner från webbplatsen:",
       eng: "This is a game I made with a group as a project for the course DH2650 at KTH. The different tasks were divided between the group members, and me and another person were responsible for the game programming. I have done all the programming for the exploration part of the game (not the puzzle part inside the portal). The game can be downloaded from the website:",
@@ -47,7 +50,7 @@ const items = [
       swe: "Websidor",
       eng: "Websites",
     },
-    image: "/src/assets/websidor.png",
+    image: webbsidor,
     text: {
       swe: "Jag har utvecklat webbsidor i JavaScript och React. Denna webbsida är ett exempel. Ett annat exempel är ett gruppprojekt där jag hade som uppgift att implementera ett Pokémonquiz som hämtar information från ett externt API med hjälp av promises. Jag har inkluderat detta quiz på den här webbsidan, och det kan hittas här:",
       eng: "I have developed websites using JavaScript and React. This website is one example. Another example is a group project in which I was tasked with implementing a Pokémon quiz that fetches data from an external API using promises. I have included the quiz on this website, and it can be found here:",
