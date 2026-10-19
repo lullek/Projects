@@ -1,0 +1,93 @@
+
+.quizCSS{
+    text-align: center;
+    font-size: 200%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    flex-direction: column;
+    padding-top: 30px;
+    color: #9ca3af;
+    padding-bottom: 40px;
+    
+}
+
+.quizNotifyUserCSS{
+  text-align: center;
+  font-size: 55%;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  flex-direction: column;
+  color: darkblue;
+  
+}
+
+.quizPokemonImage{ 
+  height: 365px; 
+  width: 365px;
+}
+
+.answerButton {
+  background-color: #7DD3FC;  /* Green background */
+  color: #000000;                /* White text */
+  margin: 10px;
+  padding: 10px 10px;          /* Top-bottom / left-right padding */
+  border: none;
+  border-radius: 10px;          /* Rounded corners */
+  text-transform: capitalize;
+  cursor: pointer;
+  font-size: 18px;
+
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  width: 200px;
+  height: 60px;
+  overflow: hidden;
+ 
+}
+
+
+.answerButton:hover{
+    background-color: blue;
+}
+
+.quizresultCss{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+  color: yellow;
+  -webkit-text-stroke: 3px darkblue; 
+  width: 100%;
+  
+  flex: 1;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 140px;
+}
+
+.quizresultCss h1{
+  font-size: 100px;
+  margin-bottom: 40px;
+}
+.quizresultCss button{
+  color: darkblue;
+  background-color: yellow;
+  border-radius: 6px;
+  width: 300px;
+  height: 150px;
+  font-size: 50px;
+  text-align: center;
+  box-shadow:0 8px 16px 0 rgba(0,0,0,0.6);
+  border: none;
+  padding: 10px
+}
+.quizresultCss button:hover{
+  background-color:rgb(205, 205, 3);
+}
+
+.quizTopBar {
+  position: absolute;
+  right: 50px;
+  font-size: 24px;
+  color: darkblue;
+  padding-top: 5px;
+}
