@@ -9,7 +9,6 @@ import { Experience } from "./presenters/ExperiencePresenter";
 import { Navbar } from "./components/Navbar";
 import { Quiz } from "./presenters/QuizPresenter";
 import { reactiveModel } from "./mobxReactiveModel";
-//import viteLogo from './assets/vite.svg'
 import './styles/App.css'
 
 function App() {
