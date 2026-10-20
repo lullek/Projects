@@ -1,13 +1,16 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import lk from "../../public/LK.png";
 import "../styles/Navbar.css";
 
 export function Navbar({ language, toggleLanguage }) {
   const [menuOpen, setMenuOpen] = useState(false);
   const closeMenu = () => setMenuOpen(false);
+  const navigate = useNavigate();
 
   return (
     <nav className="navbar">
+      <img className="navbar-icon" src={lk} alt="LK" width="30" onClick={() => {navigate("/"); closeMenu();}}/>
       <button className="hamburger" onClick={() => setMenuOpen(!menuOpen)} aria-label={menuOpen ? "Stäng meny" : "Öppna meny"} aria-expanded={menuOpen} aria-controls="navbar-links">
         {menuOpen ? "✕" : "☰"}
       </button>

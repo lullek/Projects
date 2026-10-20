@@ -45,6 +45,10 @@
   display: none;
 }
 
+.navbar-icon {
+  display: none;
+}
+
 @media (max-width: 875px) {
   .navbar {
     justify-content: flex-end;
@@ -65,6 +69,13 @@
     border: 1px solid var(--border);
     border-radius: 8px;
     padding: 8px 12px;
+    cursor: pointer;
+  }
+
+  .navbar-icon {
+    display: block;
+    object-fit: cover;
+    margin-right: auto;
     cursor: pointer;
   }
 
